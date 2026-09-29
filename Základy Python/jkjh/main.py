@@ -1,4 +1,10 @@
-a=4
-b=3
-print("Sčítání:", a, "+", b, "**" , 3, "/" , 3.14, "=", ((a + b) **3) /3.14 )
-print (a , b ,)
+vek = int(input("jaký je váš věk ? "))
+
+if vek >= 18:
+    print("Jsi dospělý")
+elif vek >= 15:
+      print("Jsi dospivající")
+elif vek > 0:
+      print("Jsi dítě")
+else:
+      print("Jsi neplatný")
