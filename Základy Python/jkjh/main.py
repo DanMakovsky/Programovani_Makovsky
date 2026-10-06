@@ -1,10 +1,14 @@
-vek = int(input("jaký je váš věk ? "))
+muj_list = [
+    "Ostrava",
+    "Kladno",
+    "Praha",
+    "Liberec",
+    "Opava",
+    "České Budějovice",
+    "Litoměřice"
+]
 
-if vek >= 18:
-    print("Jsi dospělý")
-elif vek >= 15:
-      print("Jsi dospivající")
-elif vek > 0:
-      print("Jsi dítě")
-else:
-      print("Jsi neplatný")
+vstup = int(input("Zadejte index města: "))
+
+for index, mesto in enumerate(muj_list, start=1):
+    print(f"{index}. město: {mesto}")
