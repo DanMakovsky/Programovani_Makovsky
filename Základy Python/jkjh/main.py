@@ -1,14 +1,8 @@
-muj_list = [
-    "Ostrava",
-    "Kladno",
-    "Praha",
-    "Liberec",
-    "Opava",
-    "České Budějovice",
-    "Litoměřice"
-]
+x = "5"
+y = "50"
+string = "SOučEt ČíseL x = {} a Y = {} Je {}"
 
-vstup = int(input("Zadejte index města: "))
-
-for index, mesto in enumerate(muj_list, start=1):
-    print(f"{index}. město: {mesto}")
+x = int
+y = int
+pocet= x * 
+print (pocet)
