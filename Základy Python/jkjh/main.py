@@ -1,8 +1,7 @@
-x = "5"
-y = "50"
-string = "SOučEt ČíseL x = {} a Y = {} Je {}"
+seznam = ["chleba", "jablka", "másla" , "sýr"]
+print(seznam)
 
-x = int
-y = int
-pocet= x * 
-print (pocet)
+seznam.remove("sýr")
+print(f"Po remove('sýr'): {seznam}")
+
+serazeny = sorted(seznam)
